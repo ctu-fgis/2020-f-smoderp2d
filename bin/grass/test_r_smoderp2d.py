@@ -20,8 +20,8 @@ test = subprocess.Popen([
     'stream=stream',
     'table_stream_shape=stream_shape',
     'table_stream_shape_code=smoderp',
-    'maxdt=10',
-    'end_time=120',
+    'maxdt=30',
+    'end_time=40',
     'output_dir={}'.format(os.path.join(data_dir, 'output_grass'))
 ])
 test.wait()
